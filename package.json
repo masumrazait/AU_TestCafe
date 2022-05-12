@@ -4,7 +4,8 @@
   "description": "Automation testing with Testcafe",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:chrome": "testcafe chrome ./tests",
+    "test:edge": "testcafe edge ./tests"
   },
   "keywords": [
     "TestCafe",
