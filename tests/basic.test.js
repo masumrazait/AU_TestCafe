@@ -39,7 +39,7 @@ test('My First testCafe test', async t =>{
     await t.typeText(developer_name_input,'Md Bittu Ansari')
     await t.typeText(developer_comments,'Hello Developer')
     await t.click(submit_button)
-    await t.expect(articleText).contains("mahi")
+    await t.expect(articleText).contains("Md Bittu Ansari")
 
     // line number 29,30 or you can write the code in one line like line no 33
     //await t.typeText('#developer-name',"Md Bittu Ansari")
@@ -51,3 +51,36 @@ test('My First testCafe test', async t =>{
     //Expect Comparison
     await t.expect(Selector('#article-header').innerText).contains('Bittu')
 })
+
+test.skip('My First testCafe test', async t =>{
+
+    const developer_name_input = Selector('#developer-name')
+    const developer_comments = Selector('#comments')
+    const submit_button = Selector('#submit-button')
+    const articleText = Selector('#article-header').innerText
+
+    await t.typeText(developer_name_input,'Md Bittu Ansari')
+    await t.typeText(developer_comments,'Hello Developer')
+    await t.click(submit_button)
+    await t.expect(articleText).contains("Md Bittu Ansari") 
+    await t.wait(3000)
+    await t.expect(Selector('#article-header').innerText).contains('Bittu')
+})
+
+//when you write only its means all testcase are not execute expect the test.Only class
+/*
+test.only('My First testCafe test only', async t =>{
+
+    const developer_name_input = Selector('#developer-name')
+    const developer_comments = Selector('#comments')
+    const submit_button = Selector('#submit-button')
+    const articleText = Selector('#article-header').innerText
+
+    await t.typeText(developer_name_input,'Md Bittu Ansari')
+    await t.typeText(developer_comments,'Hello Developer')
+    await t.click(submit_button)
+    await t.expect(articleText).contains("Md Bittu Ansari") 
+    await t.wait(3000)
+    await t.expect(Selector('#article-header').innerText).contains('Bittu')
+})
+*/
