@@ -34,12 +34,12 @@ test('My First testCafe test', async t =>{
     //take screenShot
     //await t.takeScreenshot({fullPage:true})
     //take ScreenShot of Element
-    await t.takeElementScreenshot(submit_button)
+    //await t.takeElementScreenshot(submit_button)
 
     await t.typeText(developer_name_input,'Md Bittu Ansari')
     await t.typeText(developer_comments,'Hello Developer')
     await t.click(submit_button)
-    await t.expect(articleText).contains("Md Bittu")
+    await t.expect(articleText).contains("mahi")
 
     // line number 29,30 or you can write the code in one line like line no 33
     //await t.typeText('#developer-name',"Md Bittu Ansari")
