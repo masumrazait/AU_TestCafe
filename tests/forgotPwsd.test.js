@@ -1,4 +1,7 @@
 import { Selector } from "testcafe";
+import Navbar from '../page-objects/components/Navbar'
+
+const navbar = new Navbar()
 
 //prettier-ignore
 fixture `Send forgotten Password test`
@@ -8,7 +11,6 @@ fixture `Send forgotten Password test`
         //Test setup goes here
         //await runDatabaseReset()
         //await seedTestData()
-
     })
 
     .beforeEach(async t=>{
@@ -28,7 +30,7 @@ fixture `Send forgotten Password test`
 
 test('User want to reset password',async t=>{
     //stared code
-    const signin_btn=Selector('#signin_button');
+    //const signin_btn=Selector('#signin_button');
     const user_form = Selector('#login_form');
     const forgot_paswd_link=Selector('a').withText('Forgot your password ?');
     const forgot_paswd_form =Selector('#send_password_form');
@@ -37,8 +39,8 @@ test('User want to reset password',async t=>{
     const message=Selector('div').innerText
 
     //Action
-    await t.expect(signin_btn.exists).ok();
-    await t.click(signin_btn);
+    //await t.expect(navbar.signin_btn.exists).ok();
+    await t.click(navbar.signin_btn);
     await t.expect(user_form.exists).ok();
     await t.click(forgot_paswd_link);
     await t.expect(forgot_paswd_form.exists).ok();
