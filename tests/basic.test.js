@@ -12,7 +12,8 @@ fixture `Getting started with TestCafe`
 
     })
     .beforeEach(async t=> {
-        //Runs Before each test    
+        //Runs Before each test 
+        await t.maximizeWindow()   
         await t.setTestSpeed(1)             //for debug the ui speed we need to declear speed 
     })
     .after(async t=> {
