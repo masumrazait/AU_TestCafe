@@ -7,4 +7,5 @@ fixture `New payment test`
 
 test.before(async t=>{
     await login('username','password');
+    
 })

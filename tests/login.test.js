@@ -28,7 +28,7 @@ fixture `Login Test`
         const signin_btn=Selector('#signin_button');
         const user_form = Selector('#login_form');
         const user_email=Selector('#user_login');
-        const use_pswd=Selector('#user_password');
+        const user_pswd=Selector('#user_password');
         const login=Selector('.btn-primary');
         const err_msg=Selector('.alert-error').innerText
 
@@ -37,7 +37,7 @@ fixture `Login Test`
         await t.click(signin_btn);
         await t.expect(user_form.exists).ok();
         await t.typeText(user_email,'netces02',{paste:true});
-        await t.typeText(use_pswd,'MAsumit1526@',{paste:true});
+        await t.typeText(user_pswd,'MAsumit1526@',{paste:true});
         await t.expect(login.exists).ok();
         await t.click(login)
         await t.expect(err_msg).contains('Login and/or password are wrong.')
