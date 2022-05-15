@@ -13,8 +13,7 @@ test('User can user search navigation bar', async t => {
     const search_result = Selector('div').innerText
 
     //Action 
-    await t.click(navbar.searchBox)
-    navbar.searchBox('online bank');
+    navbar.search('online bank');
     
     //Assertion
     await t.expect(result_tittle.exists).ok()
