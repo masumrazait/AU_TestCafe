@@ -1,6 +1,6 @@
 import { Selector, t } from "testcafe";
 
-class FeedbackPage {
+class FeedbackPage{
     constructor() {
         this.feedback_tab = Selector('#feedback');
         this.feedback_form = Selector('.form-inputs');
