@@ -5,10 +5,14 @@ import PracticeFormPage from "../page-objects/pages/PracticeFormPage";
 const practiceForm = new PracticeFormPage()
 
 fixture`User enter data in form`
-    .page`https://demoqa.com/automation-practice-form`
+    .page`https://automationpanda.com/contact/`
 
 test('User FIlling data with ',
     async t => {
-        await t.click(practiceForm.formSelect)
+        practiceForm.form('Altaf','Altaf@gmail.com','Hi team thanks for develeip this websiterf')
+        await t.click(practiceForm.submitbtn)
+        await t.expect(practiceForm.msg.innerText).contains('Message Sent')
+        console.log(practiceForm.msg.innerText)
+
 
     })

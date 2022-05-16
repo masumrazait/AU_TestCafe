@@ -42,15 +42,8 @@ test('My First testCafe test', async t => {
     await t.click(submit_button)
     await t.expect(articleText).contains("Md Bittu Ansari")
 
-    // line number 29,30 or you can write the code in one line like line no 33
-    //await t.typeText('#developer-name',"Md Bittu Ansari")
-
-
-    //wait but its not good way 
-    await t.wait(3000)
-
-    //Expect Comparison
-    await t.expect(Selector('#article-header').innerText).contains('Bittu')
+    await t
+    .expect(Selector('#article-header').innerText).contains('Bittu')
 })
 
 test.skip('My First testCafe test', async t => {
