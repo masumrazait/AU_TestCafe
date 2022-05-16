@@ -1,6 +1,7 @@
-import { Selector } from "testcafe";
+
 import Navbar from '../page-objects/components/Navbar'
-import SearchResultPage from "../page-objects/pages/SearchResultPage"
+
+import SearchResultPage from '../page-objects/pages/SearchResultPage'
 
 
 const navbar = new Navbar();
