@@ -5,6 +5,7 @@ class LoginPage {
         this.user_email = Selector('#user_login')
         this.user_pswd = Selector('#user_password')
         this.submitButton = Selector('.btn-primary')
+        this.err_msg = Selector('.alert-error') 
     }
 
     async loginToApp(username, password) {

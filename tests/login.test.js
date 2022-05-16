@@ -13,17 +13,14 @@ test('Login with Invalid credential',
     async t => {
         await t.click(navbar.signin_btn)
         loginPage.loginToApp('Invalid username', 'invalid password')
-        const err_msg = Selector('.alert-error').innerText;
-        await t.expect(err_msg).contains('Login and/or password are wrong.')
-        await t.click(loginToApp.submitButton)
+        await t.expect(loginPage.err_msg.innerText).contains('Login and/or password are wrong.')
+
     })
 
-
-test('Login with Valid credential',
+test('Login with valid credential',
     async t => {
         await t.click(navbar.signin_btn)
-        loginPage.loginToApp('username', 'password')
-        await t.click(loginToApp.submitButton)
-        await t.expect(loginToApp.submitButton.exists).ok()
+        loginPage.loginToApp('Masumit1526@gmail', 'invalidpassword')
+        await t.expect(loginPage.err_msg.innerText).contains('Login and/or password are wrong.')
 
     })
