@@ -9,7 +9,7 @@ fixture`User enter data in form`
 
 test('User FIlling data with ',
     async t => {
-        practiceForm.form('Altaf','Altaf@gmail.com','Hi team thanks for develeip this websiterf')
+        practiceForm.form('Altaf','Altaf@gmail.com','Hi team thanks for developer this website')
         await t.click(practiceForm.submitbtn)
         await t.expect(practiceForm.msg.innerText).contains('Message Sent')
         console.log(practiceForm.msg.innerText)
