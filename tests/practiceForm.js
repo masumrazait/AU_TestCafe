@@ -12,7 +12,7 @@ test('User FIlling data with ',
         practiceForm.form('Altaf','Altaf@gmail.com','Hi team thanks for developer this website')
         await t.click(practiceForm.submitbtn)
         await t.expect(practiceForm.msg.innerText).contains('Message Sent')
-        console.log(practiceForm.msg.innerText)
+        //console.log(practiceForm.msg.innerText)
 
 
     })
