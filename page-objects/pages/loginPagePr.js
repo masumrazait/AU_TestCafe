@@ -3,7 +3,7 @@ import { Selector, t } from "testcafe";
 
 class LoginPagePr {
     constructor() {
-        this.un = Selector('#username')
+        this.un = Selector('.username')
         this.pwd = Selector('#password')
         this.sub = Selector('#Login')
         this.emsg=Selector('#error')
