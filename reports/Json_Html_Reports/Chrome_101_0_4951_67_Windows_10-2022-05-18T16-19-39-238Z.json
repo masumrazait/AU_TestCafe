@@ -1,0 +1,734 @@
+[
+  {
+    "description": "Getting started with TestCafe",
+    "elements": [
+      {
+        "id": "ScenarioMy First testCafe test",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "My First testCafe test",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\basic.test.js:1:0"
+            },
+            "name": "My First testCafe test",
+            "result": {
+              "duration": 13236,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">My First testCafe test</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Getting started with TestCafe",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "101.0.4951.67"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-05-18T16:19:39.239Z",
+      "startTime": "2022-05-18T16:17:28.579Z"
+    },
+    "name": "Getting started with TestCafe",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@first"
+      },
+      {
+        "line": 0,
+        "name": "@testcafe"
+      },
+      {
+        "line": 0,
+        "name": "@getting"
+      },
+      {
+        "line": 0,
+        "name": "@started"
+      }
+    ],
+    "uri": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\basic.test.js:1"
+  },
+  {
+    "description": "Data driven test demo",
+    "elements": [
+      {
+        "id": "Scenariologin page-You logged into a secure area!",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "login page-You logged into a secure area!",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\DataDrivenTest\\data_driven_test.js:1:0"
+            },
+            "name": "login page-You logged into a secure area!",
+            "result": {
+              "duration": 21711,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">login page-You logged into a secure area!</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "Scenariologin page- Your username is invalid!",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "login page- Your username is invalid!",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\DataDrivenTest\\data_driven_test.js:1:0"
+            },
+            "name": "login page- Your username is invalid!",
+            "result": {
+              "duration": 22566,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">login page- Your username is invalid!</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "Scenariologin page-You logged into a secure area!",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "login page-You logged into a secure area!",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\DataDrivenTest\\data_driven_test.js:1:0"
+            },
+            "name": "login page-You logged into a secure area!",
+            "result": {
+              "duration": 16791,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">login page-You logged into a secure area!</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Data driven test demo",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "101.0.4951.67"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-05-18T16:19:39.239Z",
+      "startTime": "2022-05-18T16:17:28.579Z"
+    },
+    "name": "Data driven test demo",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@page-you"
+      },
+      {
+        "line": 0,
+        "name": "@logged"
+      },
+      {
+        "line": 0,
+        "name": "@into"
+      },
+      {
+        "line": 0,
+        "name": "@secure"
+      },
+      {
+        "line": 0,
+        "name": "@area"
+      },
+      {
+        "line": 0,
+        "name": "@page-"
+      },
+      {
+        "line": 0,
+        "name": "@your"
+      },
+      {
+        "line": 0,
+        "name": "@username"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@data"
+      },
+      {
+        "line": 0,
+        "name": "@driven"
+      },
+      {
+        "line": 0,
+        "name": "@demo"
+      }
+    ],
+    "uri": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\DataDrivenTest\\data_driven_test.js:1"
+  },
+  {
+    "description": "User can shared the feedback and experience",
+    "elements": [
+      {
+        "id": "ScenarioShared feedback with invalid details",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Shared feedback with invalid details",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\feedback.test.js:1:0"
+            },
+            "name": "Shared feedback with invalid details",
+            "result": {
+              "duration": 6429,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Shared feedback with invalid details</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "User can shared the feedback and experience",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "101.0.4951.67"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-05-18T16:19:39.239Z",
+      "startTime": "2022-05-18T16:17:28.579Z"
+    },
+    "name": "User can shared the feedback and experience",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@shared"
+      },
+      {
+        "line": 0,
+        "name": "@feedback"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@details"
+      },
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@experience"
+      }
+    ],
+    "uri": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\feedback.test.js:1"
+  },
+  {
+    "description": "Send forgotten Password test",
+    "elements": [
+      {
+        "id": "ScenarioUser want to reset password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "User want to reset password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\forgotPwsd.test.js:1:0"
+            },
+            "name": "User want to reset password",
+            "result": {
+              "duration": 4873,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">User want to reset password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Send forgotten Password test",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "101.0.4951.67"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-05-18T16:19:39.239Z",
+      "startTime": "2022-05-18T16:17:28.579Z"
+    },
+    "name": "Send forgotten Password test",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@want"
+      },
+      {
+        "line": 0,
+        "name": "@reset"
+      },
+      {
+        "line": 0,
+        "name": "@password"
+      },
+      {
+        "line": 0,
+        "name": "@send"
+      },
+      {
+        "line": 0,
+        "name": "@forgotten"
+      }
+    ],
+    "uri": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\forgotPwsd.test.js:1"
+  },
+  {
+    "description": "Login Test",
+    "elements": [
+      {
+        "id": "ScenarioLogin with Invalid credential",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Login with Invalid credential",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\login.test.js:1:0"
+            },
+            "name": "Login with Invalid credential",
+            "result": {
+              "duration": 4018,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Login with Invalid credential</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioLogin with valid credential",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Login with valid credential",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\login.test.js:1:0"
+            },
+            "name": "Login with valid credential",
+            "result": {
+              "duration": 3719,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Login with valid credential</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Login Test",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "101.0.4951.67"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-05-18T16:19:39.239Z",
+      "startTime": "2022-05-18T16:17:28.579Z"
+    },
+    "name": "Login Test",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@valid"
+      },
+      {
+        "line": 0,
+        "name": "@credential"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      }
+    ],
+    "uri": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\login.test.js:1"
+  },
+  {
+    "description": "login scenario",
+    "elements": [
+      {
+        "id": "Scenariologin with invalid credentials",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "login with invalid credentials",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\loginpageprs.js:1:0"
+            },
+            "name": "login with invalid credentials",
+            "result": {
+              "duration": 21187,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">login with invalid credentials</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "login scenario",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "101.0.4951.67"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-05-18T16:19:39.239Z",
+      "startTime": "2022-05-18T16:17:28.579Z"
+    },
+    "name": "login scenario",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@credentials"
+      }
+    ],
+    "uri": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\loginpageprs.js:1"
+  },
+  {
+    "description": "User enter data in form",
+    "elements": [
+      {
+        "id": "ScenarioUser Filling data with ",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "User Filling data with",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\practiceForm.js:1:0"
+            },
+            "name": "User Filling data with ",
+            "result": {
+              "duration": 12021,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">User Filling data with </a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "User enter data in form",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "101.0.4951.67"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-05-18T16:19:39.239Z",
+      "startTime": "2022-05-18T16:17:28.579Z"
+    },
+    "name": "User enter data in form",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@filling"
+      },
+      {
+        "line": 0,
+        "name": "@data"
+      },
+      {
+        "line": 0,
+        "name": "@enter"
+      },
+      {
+        "line": 0,
+        "name": "@form"
+      }
+    ],
+    "uri": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\practiceForm.js:1"
+  },
+  {
+    "description": "Search Navigation Funtionality",
+    "elements": [
+      {
+        "id": "ScenarioUser can user search navigation bar",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "User can user search navigation bar",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\search.text.js:1:0"
+            },
+            "name": "User can user search navigation bar",
+            "result": {
+              "duration": 3557,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">User can user search navigation bar</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Search Navigation Funtionality",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "101.0.4951.67"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-05-18T16:19:39.239Z",
+      "startTime": "2022-05-18T16:17:28.579Z"
+    },
+    "name": "Search Navigation Funtionality",
+    "runInfo": {
+      "endTime": "2022-05-18T16:19:39.238Z",
+      "passed": 11,
+      "startTime": "2022-05-18T16:17:28.579Z",
+      "testCount": 11,
+      "userAgents": [
+        "Chrome 101.0.4951.67 / Windows 10"
+      ],
+      "warnings": []
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@search"
+      },
+      {
+        "line": 0,
+        "name": "@navigation"
+      },
+      {
+        "line": 0,
+        "name": "@bar"
+      },
+      {
+        "line": 0,
+        "name": "@funtionality"
+      }
+    ],
+    "uri": "E:\\AT_TESTCAFE\\TESTCAFE-TESTING\\tests\\search.text.js:1"
+  }
+]

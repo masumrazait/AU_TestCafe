@@ -19,38 +19,8 @@
             },
             "name": "My First testCafe test",
             "result": {
-              "duration": 5231,
+              "duration": 4704,
               "status": "passed"
-            },
-            "tags": [],
-            "text": [
-              "<a href=\"#\">My First testCafe test</a>"
-            ]
-          }
-        ],
-        "tags": [],
-        "type": "scenario",
-        "uri": ""
-      },
-      {
-        "id": "ScenarioMy First testCafe test",
-        "keyword": "Scenario",
-        "line": 0,
-        "name": "My First testCafe test",
-        "skipped": true,
-        "sourceLine": "undefined",
-        "status": "skipped",
-        "steps": [
-          {
-            "hidden": false,
-            "keyword": ">",
-            "match": {
-              "location": "D:\\TESTCAFE-TESTING\\tests\\basic.test.js:1:0"
-            },
-            "name": "My First testCafe test",
-            "result": {
-              "duration": 1,
-              "status": "skipped"
             },
             "tags": [],
             "text": [
@@ -76,8 +46,8 @@
         "name": "windows",
         "version": "10"
       },
-      "reportTime": "2022-05-18T10:31:55.249Z",
-      "startTime": "2022-05-18T10:30:07.311Z"
+      "reportTime": "2022-05-18T12:33:32.835Z",
+      "startTime": "2022-05-18T12:31:47.470Z"
     },
     "name": "Getting started with TestCafe",
     "skipped": false,
@@ -121,7 +91,7 @@
             },
             "name": "login page-You logged into a secure area!",
             "result": {
-              "duration": 19055,
+              "duration": 16963,
               "status": "passed"
             },
             "tags": [],
@@ -151,7 +121,7 @@
             },
             "name": "login page- Your username is invalid!",
             "result": {
-              "duration": 15239,
+              "duration": 14691,
               "status": "passed"
             },
             "tags": [],
@@ -181,7 +151,7 @@
             },
             "name": "login page-You logged into a secure area!",
             "result": {
-              "duration": 14246,
+              "duration": 14013,
               "status": "passed"
             },
             "tags": [],
@@ -208,8 +178,8 @@
         "name": "windows",
         "version": "10"
       },
-      "reportTime": "2022-05-18T10:31:55.249Z",
-      "startTime": "2022-05-18T10:30:07.311Z"
+      "reportTime": "2022-05-18T12:33:32.835Z",
+      "startTime": "2022-05-18T12:31:47.470Z"
     },
     "name": "Data driven test demo",
     "skipped": false,
@@ -289,7 +259,7 @@
             },
             "name": "Shared feedback with invalid details",
             "result": {
-              "duration": 6541,
+              "duration": 5970,
               "status": "passed"
             },
             "tags": [],
@@ -316,8 +286,8 @@
         "name": "windows",
         "version": "10"
       },
-      "reportTime": "2022-05-18T10:31:55.249Z",
-      "startTime": "2022-05-18T10:30:07.311Z"
+      "reportTime": "2022-05-18T12:33:32.835Z",
+      "startTime": "2022-05-18T12:31:47.470Z"
     },
     "name": "User can shared the feedback and experience",
     "skipped": false,
@@ -369,7 +339,7 @@
             },
             "name": "User want to reset password",
             "result": {
-              "duration": 4704,
+              "duration": 4868,
               "status": "passed"
             },
             "tags": [],
@@ -396,8 +366,8 @@
         "name": "windows",
         "version": "10"
       },
-      "reportTime": "2022-05-18T10:31:55.249Z",
-      "startTime": "2022-05-18T10:30:07.311Z"
+      "reportTime": "2022-05-18T12:33:32.835Z",
+      "startTime": "2022-05-18T12:31:47.470Z"
     },
     "name": "Send forgotten Password test",
     "skipped": false,
@@ -449,7 +419,7 @@
             },
             "name": "Login with Invalid credential",
             "result": {
-              "duration": 3419,
+              "duration": 3242,
               "status": "passed"
             },
             "tags": [],
@@ -479,7 +449,7 @@
             },
             "name": "Login with valid credential",
             "result": {
-              "duration": 3534,
+              "duration": 4518,
               "status": "passed"
             },
             "tags": [],
@@ -506,8 +476,8 @@
         "name": "windows",
         "version": "10"
       },
-      "reportTime": "2022-05-18T10:31:55.249Z",
-      "startTime": "2022-05-18T10:30:07.311Z"
+      "reportTime": "2022-05-18T12:33:32.835Z",
+      "startTime": "2022-05-18T12:31:47.470Z"
     },
     "name": "Login Test",
     "skipped": false,
@@ -551,7 +521,7 @@
             },
             "name": "login with invalid credentials",
             "result": {
-              "duration": 22129,
+              "duration": 20855,
               "status": "passed"
             },
             "tags": [],
@@ -578,8 +548,8 @@
         "name": "windows",
         "version": "10"
       },
-      "reportTime": "2022-05-18T10:31:55.249Z",
-      "startTime": "2022-05-18T10:30:07.311Z"
+      "reportTime": "2022-05-18T12:33:32.835Z",
+      "startTime": "2022-05-18T12:31:47.470Z"
     },
     "name": "login scenario",
     "skipped": false,
@@ -619,7 +589,7 @@
             },
             "name": "User FIlling data with ",
             "result": {
-              "duration": 10070,
+              "duration": 11565,
               "status": "passed"
             },
             "tags": [],
@@ -646,8 +616,8 @@
         "name": "windows",
         "version": "10"
       },
-      "reportTime": "2022-05-18T10:31:55.249Z",
-      "startTime": "2022-05-18T10:30:07.311Z"
+      "reportTime": "2022-05-18T12:33:32.835Z",
+      "startTime": "2022-05-18T12:31:47.470Z"
     },
     "name": "User enter data in form",
     "skipped": false,
@@ -695,7 +665,7 @@
             },
             "name": "User can user search navigation bar",
             "result": {
-              "duration": 3242,
+              "duration": 3451,
               "status": "passed"
             },
             "tags": [],
@@ -722,14 +692,14 @@
         "name": "windows",
         "version": "10"
       },
-      "reportTime": "2022-05-18T10:31:55.249Z",
-      "startTime": "2022-05-18T10:30:07.311Z"
+      "reportTime": "2022-05-18T12:33:32.835Z",
+      "startTime": "2022-05-18T12:31:47.470Z"
     },
     "name": "Search Navigation Funtionality",
     "runInfo": {
-      "endTime": "2022-05-18T10:31:55.248Z",
+      "endTime": "2022-05-18T12:33:32.834Z",
       "passed": 11,
-      "startTime": "2022-05-18T10:30:07.311Z",
+      "startTime": "2022-05-18T12:31:47.470Z",
       "testCount": 11,
       "userAgents": [
         "Chrome 101.0.4951.67 / Windows 10"
