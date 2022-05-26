@@ -7,7 +7,7 @@ const practiceForm = new PracticeFormPage()
 fixture`User enter data in form`
     .page`https://automationpanda.com/contact/`
 
-test('User FIlling data with ',
+test('User Filling data with ',
     async t => {
         practiceForm.form('Altaf','Altaf@gmail.com','Hi team thanks for developer this website')
         await t.click(practiceForm.submitbtn)
