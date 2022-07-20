@@ -1,0 +1,806 @@
+[
+  {
+    "description": "Getting started with TestCafe",
+    "elements": [
+      {
+        "id": "ScenarioMy First testCafe test",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "My First testCafe test",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\basic.test.js:1:0"
+            },
+            "name": "My First testCafe test",
+            "result": {
+              "duration": 6865,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">My First testCafe test</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Getting started with TestCafe",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "103.0.5060.114"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-07-20T19:57:26.654Z",
+      "startTime": "2022-07-20T19:54:15.166Z"
+    },
+    "name": "Getting started with TestCafe",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@first"
+      },
+      {
+        "line": 0,
+        "name": "@testcafe"
+      },
+      {
+        "line": 0,
+        "name": "@getting"
+      },
+      {
+        "line": 0,
+        "name": "@started"
+      }
+    ],
+    "uri": "D:\\TESTCAFE-TESTING\\tests\\basic.test.js:1"
+  },
+  {
+    "description": "Data driven test demo",
+    "elements": [
+      {
+        "id": "Scenariologin page-You logged into a secure area!",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "login page-You logged into a secure area!",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\DataDrivenTest\\data_driven_test.js:1:0"
+            },
+            "name": "login page-You logged into a secure area!",
+            "result": {
+              "duration": 23836,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">login page-You logged into a secure area!</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "Scenariologin page- Your username is invalid!",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "login page- Your username is invalid!",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\DataDrivenTest\\data_driven_test.js:1:0"
+            },
+            "name": "login page- Your username is invalid!",
+            "result": {
+              "duration": 20948,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">login page- Your username is invalid!</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "Scenariologin page-You logged into a secure area!",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "login page-You logged into a secure area!",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\DataDrivenTest\\data_driven_test.js:1:0"
+            },
+            "name": "login page-You logged into a secure area!",
+            "result": {
+              "duration": 16517,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">login page-You logged into a secure area!</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Data driven test demo",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "103.0.5060.114"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-07-20T19:57:26.654Z",
+      "startTime": "2022-07-20T19:54:15.166Z"
+    },
+    "name": "Data driven test demo",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@page-you"
+      },
+      {
+        "line": 0,
+        "name": "@logged"
+      },
+      {
+        "line": 0,
+        "name": "@into"
+      },
+      {
+        "line": 0,
+        "name": "@secure"
+      },
+      {
+        "line": 0,
+        "name": "@area"
+      },
+      {
+        "line": 0,
+        "name": "@page-"
+      },
+      {
+        "line": 0,
+        "name": "@your"
+      },
+      {
+        "line": 0,
+        "name": "@username"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@data"
+      },
+      {
+        "line": 0,
+        "name": "@driven"
+      },
+      {
+        "line": 0,
+        "name": "@demo"
+      }
+    ],
+    "uri": "D:\\TESTCAFE-TESTING\\tests\\DataDrivenTest\\data_driven_test.js:1"
+  },
+  {
+    "description": "User can shared the feedback and experience",
+    "elements": [
+      {
+        "id": "ScenarioShared feedback with invalid details",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Shared feedback with invalid details",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\feedback.test.js:1:0"
+            },
+            "name": "Shared feedback with invalid details",
+            "result": {
+              "duration": 12244,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Shared feedback with invalid details</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "User can shared the feedback and experience",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "103.0.5060.114"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-07-20T19:57:26.654Z",
+      "startTime": "2022-07-20T19:54:15.166Z"
+    },
+    "name": "User can shared the feedback and experience",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@shared"
+      },
+      {
+        "line": 0,
+        "name": "@feedback"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@details"
+      },
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@experience"
+      }
+    ],
+    "uri": "D:\\TESTCAFE-TESTING\\tests\\feedback.test.js:1"
+  },
+  {
+    "description": "Send forgotten Password test",
+    "elements": [
+      {
+        "id": "ScenarioUser want to reset password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "User want to reset password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\forgotPwsd.test.js:1:0"
+            },
+            "name": "User want to reset password",
+            "result": {
+              "duration": 23568,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">User want to reset password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Send forgotten Password test",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "103.0.5060.114"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-07-20T19:57:26.654Z",
+      "startTime": "2022-07-20T19:54:15.166Z"
+    },
+    "name": "Send forgotten Password test",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@want"
+      },
+      {
+        "line": 0,
+        "name": "@reset"
+      },
+      {
+        "line": 0,
+        "name": "@password"
+      },
+      {
+        "line": 0,
+        "name": "@send"
+      },
+      {
+        "line": 0,
+        "name": "@forgotten"
+      }
+    ],
+    "uri": "D:\\TESTCAFE-TESTING\\tests\\forgotPwsd.test.js:1"
+  },
+  {
+    "description": "Fb Test",
+    "elements": [
+      {
+        "id": "Scenariologin with invalid credentials",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "login with invalid credentials",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "image": [
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABVYAAAKRCAYAAAC/c/KQAAAAAklEQVR4AewaftIAABG9SURBVO3BsQHAIAACMMr/P1tPkD3Jd64AAAAAAPCsAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADApAEAAAAAYNIAAAAAADBpAAAAAACYNAAAAAAATBoAAAAAACYNAAAAAACTBgAAAACASQMAAAAAwKQBAAAAAGDSAAAAAAAwaQAAAAAAmDQAAAAAAEwaAAAAAAAmDQAAAAAAkwYAAAAAgEkDAAAAAMCkAQAAAABg0gAAAAAAMGkAAAAAAJg0AAAAAABMGgAAAAAAJg0AAAAAAJMGAAAAAIBJAwAAAADA5AcwJwkemghchgAAAABJRU5ErkJggg=="
+            ],
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\GowthuFb.js:1:0"
+            },
+            "name": "login with invalid credentials",
+            "result": {
+              "duration": 39857,
+              "error_message": "1) Failed to load the page at \"https://www.cemkolaghat.org/student/login.aspx\".\n   Increase the value of the \"pageRequestTimeout\" variable, enable the \"retryTestPages\" option, or use quarantine mode to perform additional attempts to execute this test.\n   You can find troubleshooting information for this issue at \"https://go.devexpress.com/TestCafe_FAQ_ARequestHasFailed.aspx\".\n\n   Error details:\n   Failed to perform a request to the resource at \"https://www.cemkolaghat.org/student/login.aspx\" because of an error.\n   Error: connect ETIMEDOUT 172.93.223.166:443\n\n   Browser: Chrome 103.0.5060.114 / Windows 10\n   Screenshot: D:\\TESTCAFE-TESTING\\screenshots\\2022-07-21_01-24-14\\Fb Test.png\n\n       9 |         this.emsg=Selector('#ContentPlaceHolder1_lblerror')\n      10 |     }\n      11 | \n      12 |     async ceform(ue1, upwd1) {\n      13 |         await t\n   --------------------------------------------\n    &rarr; 14 |             .typeText(this.cbm, ue1, { paste: true, replace: true })\n   --------------------------------------------\n      15 |             .typeText(this.cpwd, upwd1,{ paste: true, replace: true })\n      16 |     }\n      17 | }\n      18 | \n      19 | export default GFb\n\n      at <anonymous> (D:\\TESTCAFE-TESTING\\page-objects\\pages\\GFb.js:14:14)\n      at asyncGeneratorStep (D:\\TESTCAFE-TESTING\\page-objects\\pages\\GFb.js:1:268)\n      at _next (D:\\TESTCAFE-TESTING\\page-objects\\pages\\GFb.js:1:606)\n      at <anonymous> (D:\\TESTCAFE-TESTING\\page-objects\\pages\\GFb.js:1:771)\n      at <anonymous> (D:\\TESTCAFE-TESTING\\page-objects\\pages\\GFb.js:1:512)\n      at GFb.ceform (D:\\TESTCAFE-TESTING\\page-objects\\pages\\GFb.js:12:30)\n\n       6 | \n       7 | fixture`Fb Test`\n       8 |     .page`https://www.cemkolaghat.org/student/login.aspx`\n       9 | \n      10 |     test('login with invalid credentials', async t => {\n   --------------------------------------------\n    &rarr; 11 |         gfb.ceform('gowthami@ggggg.fff', 'Gowthu@123')\n   --------------------------------------------\n      12 |         await t.click(gfb.clg)\n      13 |         await t.expect(gfb.emsg.innerText).contains('Invalid username')\n      14 |     })\n\n      at <anonymous> (D:\\TESTCAFE-TESTING\\tests\\GowthuFb.js:11:13)\n      at asyncGeneratorStep (D:\\TESTCAFE-TESTING\\tests\\GowthuFb.js:2:266)\n      at _next (D:\\TESTCAFE-TESTING\\tests\\GowthuFb.js:2:604)\n      at <anonymous> (D:\\TESTCAFE-TESTING\\tests\\GowthuFb.js:2:769)\n      at <anonymous> (D:\\TESTCAFE-TESTING\\tests\\GowthuFb.js:2:510)\n      at <anonymous> (D:\\TESTCAFE-TESTING\\tests\\GowthuFb.js:10:9)\n\n2) undefinedUnhandled promise rejection:\n\n       PageLoadError {\n   code: 'E54',\n   isTestCafeError: true,\n   callsite: CallsiteRecord {\n   filename: 'D:\\\\TESTCAFE-TESTING\\\\page-objects\\\\pages\\\\GFb.js',\n   lineNum: 13,\n   callsiteFrameIdx: 5,\n   stackFrames: [\n     [Object],    [Object],    [Object],\n     [Object],    [Object],    [Object],\n     CallSite {}, [Object],    [Object],\n     [Object],    CallSite {}, [Object],\n     [Object],    [Object],    CallSite {},\n     [Object],    [Object],    [Object],\n     CallSite {}, [Object],    [Object],\n     [Object],    [Object],    [Object],\n     [Object],    [Object],    CallSite {},\n     [Object]\n   ],\n   isV8Frames: true\n   },\n   url: 'https://www.cemkolaghat.org/student/login.aspx',\n   errMsg: 'Failed to perform a request to the resource at <a href=\"https://www.cemkolaghat.org/student/login.aspx\"&rarr;https://www.cemkolaghat.org/student/login.aspx</a&rarr; because of an error.\\nError: connect ETIMEDOUT 172.93.223.166:443',\n   id: '81GC0HN'\n   }\n\n   Browser: Chrome 103.0.5060.114 / Windows 10",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">login with invalid credentials</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Fb Test",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "103.0.5060.114"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-07-20T19:57:26.654Z",
+      "startTime": "2022-07-20T19:54:15.166Z"
+    },
+    "name": "Fb Test",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@credentials"
+      }
+    ],
+    "uri": "D:\\TESTCAFE-TESTING\\tests\\GowthuFb.js:1"
+  },
+  {
+    "description": "Login Test",
+    "elements": [
+      {
+        "id": "ScenarioLogin with Invalid credential",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Login with Invalid credential",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\login.test.js:1:0"
+            },
+            "name": "Login with Invalid credential",
+            "result": {
+              "duration": 4874,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Login with Invalid credential</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioLogin with valid credential",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Login with valid credential",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\login.test.js:1:0"
+            },
+            "name": "Login with valid credential",
+            "result": {
+              "duration": 3599,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Login with valid credential</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Login Test",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "103.0.5060.114"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-07-20T19:57:26.654Z",
+      "startTime": "2022-07-20T19:54:15.166Z"
+    },
+    "name": "Login Test",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@valid"
+      },
+      {
+        "line": 0,
+        "name": "@credential"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      }
+    ],
+    "uri": "D:\\TESTCAFE-TESTING\\tests\\login.test.js:1"
+  },
+  {
+    "description": "login scenario",
+    "elements": [
+      {
+        "id": "Scenariologin with invalid credentials",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "login with invalid credentials",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\loginpageprs.js:1:0"
+            },
+            "name": "login with invalid credentials",
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">login with invalid credentials</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "login scenario",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "103.0.5060.114"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-07-20T19:57:26.654Z",
+      "startTime": "2022-07-20T19:54:15.166Z"
+    },
+    "name": "login scenario",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@credentials"
+      }
+    ],
+    "uri": "D:\\TESTCAFE-TESTING\\tests\\loginpageprs.js:1"
+  },
+  {
+    "description": "User enter data in form",
+    "elements": [
+      {
+        "id": "ScenarioUser Filling data with ",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "User Filling data with",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\practiceForm.js:1:0"
+            },
+            "name": "User Filling data with ",
+            "result": {
+              "duration": 11852,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">User Filling data with </a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "User enter data in form",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "103.0.5060.114"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-07-20T19:57:26.654Z",
+      "startTime": "2022-07-20T19:54:15.166Z"
+    },
+    "name": "User enter data in form",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@filling"
+      },
+      {
+        "line": 0,
+        "name": "@data"
+      },
+      {
+        "line": 0,
+        "name": "@enter"
+      },
+      {
+        "line": 0,
+        "name": "@form"
+      }
+    ],
+    "uri": "D:\\TESTCAFE-TESTING\\tests\\practiceForm.js:1"
+  },
+  {
+    "description": "Search Navigation Funtionality",
+    "elements": [
+      {
+        "id": "ScenarioUser can user search navigation bar",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "User can user search navigation bar",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\TESTCAFE-TESTING\\tests\\search.text.js:1:0"
+            },
+            "name": "User can user search navigation bar",
+            "result": {
+              "duration": 3118,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">User can user search navigation bar</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Search Navigation Funtionality",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "103.0.5060.114"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2022-07-20T19:57:26.654Z",
+      "startTime": "2022-07-20T19:54:15.166Z"
+    },
+    "name": "Search Navigation Funtionality",
+    "runInfo": {
+      "endTime": "2022-07-20T19:57:26.653Z",
+      "passed": 11,
+      "startTime": "2022-07-20T19:54:15.166Z",
+      "testCount": 12,
+      "userAgents": [
+        "Chrome 103.0.5060.114 / Windows 10"
+      ],
+      "warnings": []
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@search"
+      },
+      {
+        "line": 0,
+        "name": "@navigation"
+      },
+      {
+        "line": 0,
+        "name": "@bar"
+      },
+      {
+        "line": 0,
+        "name": "@funtionality"
+      }
+    ],
+    "uri": "D:\\TESTCAFE-TESTING\\tests\\search.text.js:1"
+  }
+]
